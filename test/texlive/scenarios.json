@@ -1,0 +1,50 @@
+{
+    "context": {
+        "features": {
+            "texlive": {
+                "collections": "context"
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:debian"
+    },
+    "docfile": {
+        "features": {
+            "texlive": {
+                "docfiles": true
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:debian"
+    },
+    "full": {
+        "features": {
+            "texlive": {
+                "scheme": "full"
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:debian"
+    },
+    "full_ubuntu": {
+        "features": {
+            "texlive": {
+                "scheme": "full"
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+    },
+    "minimal": {
+        "features": {
+            "texlive": {
+                "scheme": "minimal"
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:debian"
+    },
+    "srcfile": {
+        "features": {
+            "texlive": {
+                "srcfiles": true
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:debian"
+    }
+}
